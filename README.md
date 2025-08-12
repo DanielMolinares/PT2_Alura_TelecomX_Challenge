@@ -31,14 +31,6 @@ Información de la cuenta: Antigüedad del cliente, tipo de contrato, facturaci�
 🤖 Modelos de Machine Learning y Resultados
 Se implementaron y evaluaron varios modelos de clasificación para determinar cuál ofrecía el mejor rendimiento en la predicción del Churn.
 
-Modelo	 Accuracy	Precision	Recall	F1-Score	ROC AUC Score
-Naive Bayes Gaussiano	76.0%	55.0%	57.0%	56.0%	81.0%
-Regresión Logística	80.0%	65.0%	53.0%	58.0%	81.0%
-Random Forest	79.0%	63.0%	48.0%	54.0%	79.0%
-SVC (SVM)	77.0%	57.0%	53.0%	55.0%	79.0%
-K-Vecinos más Cercanos	76.0%	53.0%	57.0%	55.0%	75.0%
-
-Exportar a Hojas de cálculo
 Los modelos con el mejor desempeño, según la métrica ROC AUC Score, fueron el Naive Bayes Gaussiano y la Regresión Logística. Esta métrica es especialmente útil en este proyecto, ya que el conjunto de datos de Churn suele estar desequilibrado.
 
 <br>
